@@ -1,0 +1,126 @@
+body{
+	font-family: Verdana,sans-serif;
+	font-size: 13px;
+	color: #4F545F;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1{
+background-color: #55B3C5;
+margin: 0;
+padding:20px;
+color: white;
+}
+
+fieldset{
+
+margin: 20px;
+padding:20px;
+border: 1px dashed #DDDDDD;
+
+
+}
+
+legend{
+
+	font-size: 18px;
+	font-weight: 999;
+}
+
+form > fieldset > span{
+
+color: #42579C;
+border:1px solid #6278b0;
+padding: 20px 40px;
+display:block;
+background: url('./infoicon.png') no-repeat left;
+background-size: 25px;
+
+
+
+}
+
+#formElement1{
+padding: 5px 10px;
+width: 300px;
+}
+#formElement2{
+padding: 5px 10px;
+width: 300px;
+}
+#formElement3{
+padding: 5px 10px;
+width: 300px;
+}
+#formElement4{
+padding: 5px 10px;
+width: 300px;
+}
+
+#country{
+width: 200px;
+
+}
+
+.button{
+text-align:center ;
+padding: 10px 20px;
+font-size: 16px;
+color: white;
+margin-right: 20px;
+border: 0;
+border-radius: 5px;
+}
+
+.button:hover{
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+#submitInput{
+
+background-color: #56C56F
+
+}
+
+/*#submitInput:hover{
+
+background-color: #67bd7a
+
+}*/
+
+#CancelInput{
+
+background-color: #D9534F
+
+}
+
+.menu{
+list-style: none;
+margin: 0;
+padding: 0;
+background-color: #CCC;
+overflow: hidden;
+
+
+}
+
+.menu>li{
+
+float: left;
+padding: 20px
+
+
+
+}
+
+.menu>li:hover, .selected{
+cursor: pointer;
+color: white;
+background-color: #999;
+
+
+}
+
